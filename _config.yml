@@ -4,7 +4,9 @@
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # url:                   https://username.github.io
-url: https://github.com/Jun0S2/jun0s2.github.io
+
+url: https://jun0s2.github.io
+
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
@@ -16,7 +18,7 @@ url: https://github.com/Jun0S2/jun0s2.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: en
+lang: ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: JunBEE
@@ -326,6 +328,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-avatar
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
